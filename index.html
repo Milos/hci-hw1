@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HCI-DZ1</title>
+	
+	<!-- Meta Tags -->
+
+	<!-- Stylesheets -->	
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>	
+<body>
+	<header>
+		<div class="banner">
+			<div class="layer">
+				<div class="title">
+					<h1>Calorie Visualisation</h1>
+					<p class="subline">Human-Computer Interaction Homework Assignment No. 1</p>
+					<a class="contact-button" href="mailto:milos.menicanin.2119@metropolitan.ac.rs?Subject=HCI%20Hello%20Milos" target="_top">Email Me</a>
+				</div>
+			</div>			
+		</div>
+	</header>
+	<div class="content">
+	<div class="about">
+			<p>
+				My name is Milos Menicanin and i've been keeping a food diary for a week with the help of <em>MyPlate</em> mobile application.
+			</p>
+	</div>
+		<div class="grid grid-pad clearfix">
+			<div class="col-1-2">
+				<div class="intro module">
+					<h2>Why MyPlate</h2>
+					<ul>
+						<li><img src="images/check.svg" alt="checked">Good App Store reviews</li>
+						<li><img src="images/check.svg" alt="checked">Large food database</li>
+						<li><img src="images/check.svg" alt="checked">Easy to add custom food in the database</li>
+						<li><img src="images/check.svg" alt="checked">Solid UX</li>
+						<li><img src="images/check.svg" alt="checked">Simple view of calorie statistics</li>
+						<li><img src="images/check.svg" alt="checked">Possibility to add exercises and burned calories</li>
+					</ul>
+				</div> <!-- End of Intro -->		
+			</div>
+			<div class="col-1-2">
+				<div class="module">
+					<img class="module-img" src="images/photo1.jpg" alt="myPlate UI" style="max-width:100%;height:auto">
+				</div>
+			</div>
+		</div>				
+		
+	
+	<div class="statistics">
+		<h2>My Calorie Statistics</h2>
+		<p>Based on my height, weight and age, my average calorie intake is supposed to be approximately <strong>1200 calories</strong>.</p>
+		<div class="grid grid-pad clearfix">
+			<div class="col-1-3">
+				<div class="module">
+				<h3>Average nutrent values intake</h3>
+					<canvas id="chart-area" width="100" height="100"></canvas>
+				</div>
+			</div>
+			<div class="col-2-3">
+				<div class="module">
+					<h3>Weekly Calories Intake</h3>
+					<canvas id="canvas" height="450" width="600"></canvas>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End of statistics -->
+</div> <!-- End of Content -->
+<footer>
+	Copyright © 2015 Milos Menicanin
+</footer>
+	<script src="js/libs/Chart.js"></script>
+	<script src="js/my.js"></script>
+</body>
+</html>
