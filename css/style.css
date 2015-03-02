@@ -218,7 +218,7 @@ header {
 	overflow:hidden; /* when the div has no content*/
 	height: 550px;
 	background-color: rgb(151, 68, 151);
-	background: url(../images/pizza.png);  
+	background: url(../images/pizza.jpg);  
 	background-position: center;
 
 	-webkit-background-size: cover;
